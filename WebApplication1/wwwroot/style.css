@@ -1,0 +1,113 @@
+﻿body {
+    /*background-image: url("https://images.unsplash.com/photo-1598892419006-5ab92c88029f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTF8fHRpZ2VyfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=1000&q=60");*/
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60");
+    min-height: 100vh;
+    background-size: cover;
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-color: #cccccc;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contains {
+    text-align: center;
+}
+
+#contain {
+    /*margin: auto;
+    position: relative;
+    margin-top: 200px;
+    justify-content: center;
+    width: 500px;
+    text-align:center;
+    border-radius: 20px;
+    border: 3px solid blue;*/
+    /*margin: auto;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 50%;*/
+    /*border: 3px solid green;*/
+    /*margin-top: 200px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeButton {
+    margin: auto;
+}
+
+#row {
+    margin-top: 200px;
+}
+
+.contains {
+    text-align: center;
+}
+
+.containing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+    .search input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 24px 20px;
+        font-size: 20px;
+        color: #cac7ff;
+    }
+
+::placeholder {
+    color: #cac7ff;
+}
+
+.search button i {
+    width: 25px;
+}
+
+.search button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+    cursor: pointer;
+}
+
+#title {
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#query {
+    border-radius: 30px;
+    border: none;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
